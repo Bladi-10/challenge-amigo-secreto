@@ -26,7 +26,7 @@
 ### Para Usuarios Finales
 
 - Disponible en GitHub Pages clic aqui:  
-  *(El enlace será añadido aquí una vez publicado).*
+  https://bladi-10.github.io/challenge-amigo-secreto/ 
 
 ### Para Desarrolladores
 
