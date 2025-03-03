@@ -2,10 +2,12 @@
 
 **Descripción:** Esta es una aplicación que permite a los usuarios ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
 
-![Interfas de usuario de Amigo Secreto ](recursos/Amigo%20secreto.jpeg)
-
 **Estado del proyecto:** Terminado
 
+![Interfas de usuario de Amigo Secreto ](recursos/Amigo%20secreto.jpeg)
+
+
+## Funcionalidades
 - **Agregar nombres:** Escribe el nombre de un amigo en el campo de texto y haz clic en "Adicionar" para añadirlo a la lista.
 
 - **Validar entrada:** Si no escribes un nombre, el programa te avisará con un mensaje para que ingreses un nombre válido.
@@ -14,7 +16,7 @@
 
 - **Sorteo aleatorio:** Cuando estés listo, haz clic en "Sortear Amigo" y el sistema elegirá un nombre al azar de la lista, mostrándolo en la pantalla.
 
-## Funcionalidad adicional
+## Funcionalidades adicional
 
 - **Sorpresa Visual:** Al hacer clic en **"Sortear Amigo"**, se mostrará una imagen aleatoria de **Hatsune Miku.**  
 - **Entrada Rápida:** Luego de escribir el nombre, puedes presionar la tecla **Enter** para agregar un amigo a la lista.
