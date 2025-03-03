@@ -1,0 +1,220 @@
+/* Estilos generales */
+body {
+
+  font-family: "Playfair Display", Verdana, Arial, Georgia, sans-serif;
+  /* Tipografía */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 17px;
+  /* Tamaño de fuente */
+  display: flex;
+  /* Usar flexbox para el layout */
+  flex-direction: column;
+  /* Dirección de los elementos en columna */
+  align-items: center;
+  /* Alinear elementos al centro */
+  margin: 0;
+  /* Eliminar márgenes */
+  padding: 20px;
+  /* Espaciado interno */
+  background-color: rgb(2, 0, 49);
+  /* Color de fondo */
+  /*background: linear-gradient(45deg, rgb(2, 0, 49), rgb(50, 50, 150), rgb(100, 100, 200));*/
+  /* Gradiente de fondo (comentado) */
+}
+
+.contenedor-padre {
+  display: flex;
+  /* Usar flexbox para el layout */
+  flex-wrap: wrap;
+  /* Permitir que los elementos se envuelvan */
+}
+
+.contenedor-hijo {
+  flex: 1;
+  /* Flexibilidad del contenedor */
+  min-width: 300px;
+  /* Ancho mínimo */
+  box-sizing: border-box;
+  /* Incluir padding y border en el tamaño total */
+  padding: 0 15px;
+  /* Espaciado interno */
+  background-color: rgb(227, 225, 239);
+  /* Color de fondo */
+  border-radius: 25px;
+  /* Bordes redondeados */
+  margin: 10px;
+  /* Espaciado externo */
+}
+
+input[type="text"],
+button,
+ul {
+
+  font-family: "Roboto", Verdana, Arial, Georgia, sans-serif;
+  /* Tipografía */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  font-size: 17px;
+  /* Tamaño de fuente */
+  border-radius: 25px;
+  /* Bordes redondeados */
+  width: 100%;
+  /* Ancho completo */
+  box-sizing: border-box;
+  /* Incluir padding y border en el tamaño total */
+  padding: 10px;
+  /* Espaciado interno */
+  margin: 10px 0;
+  /* Espaciado externo */
+  border: 0;
+  /* Sin borde */
+  border-style: inset;
+  /* Estilo de borde */
+  border-color: rgb(6, 1, 24);
+  /* Color del borde */
+}
+
+button {
+  cursor: pointer;
+  /* Cambiar cursor al pasar sobre el botón */
+  transition: background-color 0.3s, color 0.3s;
+  /* Transición suave para el color de fondo y texto */
+}
+
+.boton-azul {
+  background-color: #062c54;
+  /* Color de fondo */
+  color: white;
+  /* Color del texto */
+}
+
+.boton-azul:hover {
+  background-color: #34ba3d;
+  /* Color de fondo al hacer hover */
+  color: black;
+  /* Color del texto al hacer hover */
+}
+
+.boton-verde {
+  background-color: #34ba3d;
+  /* Color de fondo */
+  color: black;
+  /* Color del texto */
+}
+
+.boton-verde:hover {
+  background-color: #062c54;
+  /* Color de fondo al hacer hover */
+  color: white;
+  /* Color del texto al hacer hover */
+}
+
+ul {
+  list-style-type: none;
+  /* Eliminar viñetas de la lista */
+}
+
+.solo {
+  font-family: "Roboto", Verdana, Arial, Georgia, sans-serif;
+  /* Tipografía */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  font-size: 17px;
+  /* Tamaño de fuente */
+  font-weight: bold;
+  /* Negrita */
+  text-align: center;
+  /* Alinear texto al centro */
+  margin: 5px 0;
+}
+
+p{
+  font-family: "Roboto", Verdana, Arial, Georgia, sans-serif;
+  /* Tipografía */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  font-size: 15px;
+  /* Tamaño de fuente */
+  text-align: center;
+  /* Alinear texto al centro */
+}
+
+li {
+  background: #cb98f4;
+  /* Color de fondo */
+  margin: 5px 0;
+  /* Espaciado externo */
+  padding: 10px;
+  /* Espaciado interno */
+  border-radius: 25px;
+  /* Bordes redondeados */
+}
+
+h3 {
+  font-size: 25px;
+  color:#135517;
+  margin: 10px 0 10px 0;
+  /* Espaciado externo */
+  text-align: center;
+  /* Alinear texto al centro */
+  text-shadow: 2px 2px 4px rgba(44, 44, 44, 0.415), 0 0 10px rgba(3, 203, 36, 0.273);
+  /* Sombra y brillo */
+}
+
+.img-container {
+  display: flex;
+  /* Usar flexbox para el layout */
+  justify-content: center;
+  /* Centrar horizontalmente */
+  align-items: center;
+  /* Centrar verticalmente */
+  margin-bottom: 15px;
+  /* Espaciado inferior */
+}
+
+img {
+  border-style: dashed;
+  /* Estilo de borde */
+  border-radius: 25px;
+  /* Bordes redondeados */
+  border-color: #34ba3d;
+  /* Color del borde */
+  margin: 1px;
+  /* Espaciado externo */
+  width: 60%;
+  /* Ancho de la imagen */
+  height: 100%;
+  /* Altura de la imagen */
+  border-bottom-width: 4px;
+  /* Ancho del borde inferior */
+  border-left-width: 4px;
+  /* Ancho del borde izquierdo */
+  border-top-width: 4px;
+  /* Ancho del borde superior */
+  border-right-width: 4px;
+  /* Ancho del borde derecho */
+}
+
+
+/* Responsividad */
+@media (max-width: 600px) {
+  .contenedor-hijo {
+    flex-basis: 100%;
+    /* Ancho completo en pantallas pequeñas */
+  }
+}

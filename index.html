@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Challenge amigo secreto por Bladi</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <!-- Enlace al archivo de estilos CSS -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="contenedor-padre">
+    <!-- Contenedor principal -->
+    <div class="contenedor-hijo">
+      <!-- Primer contenedor hijo -->
+      <h1>Amigo Secreto</h1>
+      <!-- Título de la página -->
+      <input type="text" id="nombre" placeholder="Ingresa el nombre de un amigo" />
+      <!-- Campo de entrada para el nombre -->
+      <button class="boton-azul" id="botonAdicionar" onclick="adicionarNombre()">Adicionar</button>
+      <!-- Botón para adicionar el nombre a la lista -->
+      <ul id="listaNombres"></ul>
+      <!-- Lista donde se mostrarán los nombres añadidos -->
+    </div>
+
+    <div class="contenedor-hijo">
+      <button class="boton-verde" onclick="sortearAmigo()">Sortear Amigo</button>
+      <!-- Botón para sortear un amigo secreto -->
+      <p class="solo">Tu amigo secreto es: </p>
+      <!-- Texto que indica el resultado del sorteo -->
+      <h3 id="resultado"></h3>
+      <!-- Elemento donde se mostrará el nombre sorteado -->
+      <div class="img-container" id="imagenes-container"></div>
+      <!-- Contenedor para mostrar la imagen aleatoria -->
+      <p>Imagen de Hatsune Miku, © Crypton Future Media, Inc. 2007 (for Hatsune Miku). Creada por Blady_10000. Licencia:
+        Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0). <a
+          href="https://creativecommons.org/licenses/by-nc/3.0/">Enlace a la licencia</a>. Uso no comercial.</p>
+    </div>
+  </div>
+  <script src="logica.js"></script>
+  <!-- Enlace al archivo JavaScript -->
+</body>
+
+
+
+</html>
