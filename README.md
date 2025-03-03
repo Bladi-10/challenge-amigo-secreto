@@ -2,7 +2,7 @@
 
 **Descripción:** Esta es una aplicación que permite a los usuarios ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
 
-![Interfas de usuario de Amigo Secreto ](../Hello%20One/recursos/Amigo%20secreto.jpeg)
+![Interfas de usuario de Amigo Secreto ](recursos/Amigo%20secreto.jpeg)
 
 **Estado del proyecto:** Terminado
 
@@ -30,7 +30,7 @@
 
 1. **Clona este repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/Bladi-10/challenge-amigo-secreto.git
 2. **Abre el proyecto en Visual Studio Code.**
 
 3. **Instala la extensión Live Server:**
